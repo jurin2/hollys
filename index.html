@@ -53,6 +53,13 @@
             color: #666;
         }
 
+        /* container 스타일 */
+        .container{
+            width: 960px;
+            margin: 0 auto;
+            padding: 0 12px;
+        }
+
         /* 스킵메뉴 */
         .skip-menu a{
             display: block;
@@ -71,6 +78,16 @@
             height: auto;
             padding: 12px;
         }
+
+        /* wrapper 스타일 */
+        .wrap{
+            overflow: hidden;
+        }
+
+        /* header 스타일 */
+        .header{
+            border-bottom: 2px solid #ba000c;
+        }
     </style>
     <title>할리스</title>
 </head>
@@ -82,8 +99,7 @@
         <a href="#hollys-membership">할리스 멤버쉽 바로가기</a>
         <a href="#live">할리스 라이브 바로가기</a>
     </div>
-   
-    <!-- wrapper -->
+
     <section class="warp">
         <header class="header">
             <div class="container">
@@ -94,11 +110,62 @@
                             <a href="./index.html"><img src="./images/logo.gif" alt="할리스 로고"></a>
                         </div>
                     </h1>
-                    <ul>
-                        <li><a href="#"><i class="fas fa-user-tie"></i> 창업설명회</a></li>
-                        <li><a href="#">아카데미</a></li>
-                        <li><a href="#">기업특판</a></li>
-                    </ul>
+                    <nav class="quick-nav01">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-user-tie"></i> 창업설명회</a></li>
+                            <li><a href="#"><i class="fas fa-graduation-cap"></i> 아카데미</a></li>
+                            <li><a href="#"><i class="fas fa-building"></i> 기업특판</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="quick-nav02">
+                        <ul>
+                            <li><a href="#">멤버십 로그인</a></li>
+                            <li><a href="#">멤버십 가입</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">中文</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="main-nav">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>Menu</span>
+                                    <span>메뉴</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>HOLLYS Mall</span>
+                                    <span>할리스 몰</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Membership</span>
+                                    <span>멤버십</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>HOLLYS News</span>
+                                    <span>이벤트 및 공지</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Store</span>
+                                    <span>매장</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>HOLLYS is</span>
+                                    <span>할리스 소개</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>
