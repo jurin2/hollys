@@ -22,18 +22,42 @@
     <meta name="twitter:image" content="./images/og.jpg">
     <meta name="twitter:description" content="할리스를 방문해보세요">
 
+    <!-- css reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+
     <!-- font-awesome 5.15.4 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- bxSlider -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+
 
     <style>
-        i{font-size: 500px;}
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+        
+        .clearfix::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
     </style>
-    <title>할리스</title>
+
+    <title>할리스커피</title>
 </head>
+
 <body>
-    <i class="fas fa-apple-alt"></i>
+
+    <div class="slider">
+        <div>I am a slide.</div>
+        <div>I am another slide.</div>
+      </div>
+
+    <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider();
+        });
+      </script>
 </body>
 </html>
