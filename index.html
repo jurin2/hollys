@@ -35,24 +35,43 @@
 
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-        
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
         .clearfix::after{
             content: '';
             display: block;
             clear: both;
         }
-    </style>
+        :root{
+            font-family: 'Roboto','Noto Sans KR','sans-serif';
+            font-weight: 400;
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5em;      
+        }
+        .skip-menu a{
+            /* position: fixed; */
+            /* left: 0; */
+            /* right: 0; */
 
-    <title>할리스커피</title>
+            display: block;
+            padding: 12px;
+            background-color: #666;
+            font-weight: 500;
+            font-size: 32px;
+            color: #fff;
+        }
+    </style>
+    <title>할리스</title>
 </head>
 
 <body>
-
-    <div class="slider">
-        <div>I am a slide.</div>
-        <div>I am another slide.</div>
-      </div>
+    <div class="skip-menu">
+        <a href="#franchise">프랜차이즈 바로가기</a>
+        <a href="#hollys-membership">할리스 멤버쉽 바로가기</a>
+        <a href="#live">할리스 라이브 바로가기</a>
+    </div>
+   
 
     <script>
         $(document).ready(function(){
