@@ -370,10 +370,17 @@ grid-template-columns: 3fr 5fr 3fr;
     border-right: 1px solid #fff;
     padding: 0 10px;
     color: #fff;
+    margin-bottom: 15px;
 }
 .footer-nav li:first-child{
     padding-left: 0;
 }
 .footer-nav li:last-child{
     border-right: none;
+}
+.footer address{
+    font-style: normal;
+    font-weight: 200;
+    color: #fff;
+    line-height: 20px;
 }
