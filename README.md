@@ -1,5 +1,5 @@
 # 할리스 랜딩페이지 클론코딩
-HTML, CSS, Jquery를 공부하기 시작하면서 만든 할리스 홈페이지 입니다.
+HTML, CSS, Jquery를 공부하기 시작하면서 만든 할리스 홈페이지입니다.
 <br><br>
 
 바로가기 - [hollys](https://jurin2.github.io/hollys)
