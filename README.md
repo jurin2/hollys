@@ -1,4 +1,4 @@
-# 할리스 랜딩페이지 클론코딩
+# 할리스 홈페이지 클론코딩
 HTML, CSS, Jquery를 공부하기 시작하면서 만든 할리스 홈페이지입니다.
 <br><br>
 
@@ -10,8 +10,8 @@ HTML, CSS, Jquery를 공부하기 시작하면서 만든 할리스 홈페이지�
 <img src="https://img.shields.io/badge/HTML5-d35836?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-3272b0?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JQUERY-0768ac?style=flat-square&logo=JQUERY&logoColor=white"/> <a href="https://github.com/jurin2/hollys/"><img src="https://img.shields.io/badge/GITHUB-171717?style=flat-square&logo=GITHUB&logoColor=white"/>
 <br><br>
 
-### 1. 랜딩페이지 클론코딩
-#### 웹표쥰을 준수하여 할리스 랜딩페이지를 비반응형으로 클론코딩
+### 1. 홈페이지 클론코딩
+#### 웹표쥰을 준수하여 할리스 페이지를 비반응형으로 클론코딩
 <br>
   
 ### 2. 메타 태그 등록
